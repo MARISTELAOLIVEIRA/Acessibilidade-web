@@ -7,7 +7,7 @@ const slidesData = [
     blocks: [
       {
         heading: "Palestrantes",
-        items: ["Maristela", "Marcileide"]
+        items: ["Profª Maristela", "Profª Marcileide"]
       }
     ]
   },
@@ -281,7 +281,7 @@ const slidesData = [
         text: "Cada desenvolvedor, designer e gestor participa da construção de experiências inclusivas."
       }
     ],
-    callout: "Obrigada! Maristela e Marcileide | Jornada Interdisciplinar 2026"
+    callout: "Obrigada! Professoras Maristela & Marcileide | Jornada Interdisciplinar 2026"
   }
 ];
 
