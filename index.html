@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Palestra sobre Acessibilidade Web para desenvolvedores: eMAG, WCAG e ISO 40500.">
+  <title>Acessibilidade na Web</title>
+  <link rel="icon" type="image/png" href="assets/acessibilidade.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="neural-bg" class="neural-bg" aria-hidden="true"></canvas>
+  <a class="skip-link" href="#slides">Pular para a apresentação</a>
+
+  <header class="topbar" aria-label="Controles da apresentação">
+    <div class="brand">
+      <strong>Acessibilidade na Web</strong>
+    </div>
+    <div class="controls">
+      <button id="prev-btn" class="nav-btn" type="button" aria-label="Slide anterior">Anterior</button>
+      <button id="next-btn" class="nav-btn" type="button" aria-label="Próximo slide">Próximo</button>
+      <button id="theme-toggle" class="nav-btn theme-btn" type="button" aria-label="Alternar tema" aria-pressed="false">Tema: Claro</button>
+    </div>
+  </header>
+
+  <main id="slides" class="slides" aria-label="Slides da apresentação"></main>
+
+  <nav id="dots" class="dots" aria-label="Ir para slide específico"></nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
